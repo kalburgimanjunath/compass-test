@@ -9,10 +9,12 @@
     "@testing-library/user-event": "^12.8.3",
     "bootstrap": "^4.6.0",
     "bootstrap-icons": "^1.5.0",
+    "konva": "^8.0.4",
     "nodemon": "^2.0.7",
     "react": "^17.0.2",
     "react-bootstrap": "^1.6.1",
     "react-dom": "^17.0.2",
+    "react-konva": "^17.0.2-4",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"

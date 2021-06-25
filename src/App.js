@@ -19,6 +19,7 @@ function App() {
           </Route>
           <Route path="/dashboard">
             <Dashboard />
+            <div id="container"></div>
           </Route>
           <Route path="/">
             <Login />

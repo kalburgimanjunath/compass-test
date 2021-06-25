@@ -66,16 +66,19 @@ export default function Sidebar(){
 Alarms</a>
                         </li>
                         <li className="dropdown-item">
-                        <a className="nav-link" href="/dashboard/alarm-manager">schedule points/zones</a>
+                        <a className="nav-link" href="/dashboard/schedule-zones">schedule points/zones</a>
                         </li>
                         <li className="dropdown-item">
-                        <a className="nav-link" href="/dashboard/alarm-manager" aria-disabled="true">system activity</a>
+                        <a className="nav-link" href="/dashboard/system-activity" aria-disabled="true">system activity</a>
                         </li>
                         <li className="dropdown-item">
                         <a className="nav-link" href="/dashboard/top-display" >top display</a>
                         </li>
                         <li className="dropdown-item">
-                        <a className="nav-link" href="/dashboard/alarm-manager" aria-disabled="true">user sessions</a>
+                        <a className="nav-link" href="/dashboard/kanban" >Kanban Board</a>
+                        </li>
+                        <li className="dropdown-item">
+                        <a className="nav-link" href="/dashboard/user-session" aria-disabled="true">user sessions</a>
                         </li>
                     </ul>
                 </div>

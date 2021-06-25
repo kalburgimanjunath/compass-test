@@ -39,12 +39,16 @@ function Child() {
     return (
       <>
         <span className="fs-4">{id}</span>
+        
         {id == 'schedule' ? <Schedule/>:''}
         {id == 'alarm-manager' ? <Alarm/>:''}
         {id == 'products' ? <Products/>:''}
         {id == 'customers' ? <Customers/>:''}
         {id == 'data-viewer' ? <DataViewer/>:''}
         {id == 'top-display' ? <TopDisplay/>:''}
+        {id == 'user-session' ? <TopDisplay/>:''}
+        {id == 'kanban' ? <TopDisplay/>:''}
+        
       </>
     );
 }
